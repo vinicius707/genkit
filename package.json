@@ -4,7 +4,8 @@
   "description": "Criando aplicação seguindo o guia get started",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "genkit:ui": "genkit start -- npx tsx --watch src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "dependencies": {
     "@genkit-ai/googleai": "^1.16.0",
+    "dotenv": "^17.2.1",
     "genkit": "^1.16.0"
   }
 }
