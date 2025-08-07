@@ -1,0 +1,29 @@
+{
+  "name": "genkit",
+  "version": "1.0.0",
+  "description": "Criando aplicação seguindo o guia get started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicius707/genkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vinicius707/genkit/issues"
+  },
+  "homepage": "https://github.com/vinicius707/genkit#readme",
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@genkit-ai/googleai": "^1.16.0",
+    "genkit": "^1.16.0"
+  }
+}
